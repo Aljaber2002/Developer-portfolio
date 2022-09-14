@@ -15,7 +15,7 @@ body{
 .half-width h1{
     font-size: 50px;
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 100px;
  
@@ -25,7 +25,7 @@ section{
     background-repeat: no-repeat;
 }
 
-section img{
+.flexible-container img{
     width:80%;
 }
 .half-width p{
@@ -45,4 +45,34 @@ section img{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experiences{
+    width: 80%;
+    margin-left:4%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+.Experiences h3{
+    color:orange;
+}
+section h1{
+    text-align: center;
+}
+section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+#full-stuck{
+    border-left:7px solid tomato;
+}
+#baby{
+    border-left:7px solid blue;
+}
+footer p{
+    text-align:center;
+    color:gray;
 }
